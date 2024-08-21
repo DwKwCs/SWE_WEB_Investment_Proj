@@ -1,0 +1,44 @@
+#root {
+    --font-1: 'GongGothicMedium';
+    --font-2: 'NEXON Lv2 Gothic';
+    --background-color: #000000;
+    --black: #252525;
+    --gray: #4f4f4f;
+    --white: #f2f2f2;
+    --blue: #0a84ff;
+    --green: #ff9500;
+    --positive: #ff3b30;
+    --negative: #007aff;
+}
+
+.container {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    padding: 0 0 80px 0;
+    background-color: var(--background-color);
+    color: var(--black);
+}
+
+* {
+    font-family: var(--font-2);
+    margin: 0;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+a:hover {
+    cursor: pointer;
+}
+button {
+    cursor: pointer;
+    border: 0;
+}
+button:hover {
+    box-shadow: 0px 0px 8px var(--green); /* 버튼에 그림자 추가 */
+}
