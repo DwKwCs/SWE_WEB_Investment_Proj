@@ -21,13 +21,15 @@
     width: 85%;
     height: 40px;
     border-radius: 4px;
+    box-sizing: border-box;
+    padding-left: 16px;
 }
 
 .account-search-button {
     background-color: var(--blue);
     margin-left: 20px;
     width: 10%;
-    border-radius: 4px;
+    border-radius: 16px;
 }
 
 .account-table {
@@ -48,4 +50,23 @@
     padding: 8px 0;
     text-align: center;
     color: var(--white);
+}
+
+.account-pagination {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.account-pagination-button {
+    width: 160px;
+    height: 40px;
+    border: none;
+    border-radius: 16px;
+    background-color: var(--blue);
+    color: var(--white);
+    font-size: 16px;
+    margin: 60px;
+    font-family: var(--font-1);
 }
